@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+  font-family:cursive;
+}
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 54px auto;
+  padding: 25px;
+
+}
+
+.mytabs input[type=radio] {
+  display: none;
+
+}
+.mytabs label {
+  padding: 25px;
+  background-color: aliceblue;
+  font-weight:bold;
+}
+
+.mytabs .tabs {
+  width: 100%;
+  padding: 20px;
+  background-color: aliceblue;
+  order: 1;
+}
+.mytabs .tab h2 {
+  font-size: medium;
+}
